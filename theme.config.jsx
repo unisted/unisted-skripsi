@@ -4,6 +4,18 @@ export default {
     link: "https://github.com/unisted/unisted-skripsi",
   },
 
+  footer: {
+    text: (
+      <span>
+        MIT {new Date().getFullYear()} ©{" "}
+        <a href="https://github.com/unisted/unisted-skripsi" target="_blank">
+          UNISTED
+        </a>
+        .
+      </span>
+    ),
+  },
+
   useNextSeoProps() {
     return {
       titleTemplate: "%s – UNISTED",
