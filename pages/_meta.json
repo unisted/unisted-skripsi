@@ -1,8 +1,38 @@
 {
-    "index": "Homepage",
-    "general": "General",
-    "tips-and-tricks": "Tips & Tricks",
-    "dosen": "Dosen",
-    "contact": "Contact",
-    "monitoring": "Monitoring"
+  "index": {
+    "title": "Homepage",
+    "theme": {
+      "footer": false
+    }
+  },
+  "general": {
+    "title": "General",
+    "theme": {
+      "footer": false
+    }
+  },
+  "tips-and-tricks": {
+    "title": "Tips & Tricks",
+    "theme": {
+      "footer": false
+    }
+  },
+  "dosen": {
+    "title": "Dosen",
+    "theme": {
+      "footer": false
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "theme": {
+      "footer": false
+    }
+  },
+  "monitoring": {
+    "title": "Monitoring",
+    "theme": {
+      "footer": false
+    }
   }
+}
