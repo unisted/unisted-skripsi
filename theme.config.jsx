@@ -32,7 +32,7 @@ export default {
       <meta property="og:image:height" content="300"></meta>
       <meta
         property="og:url"
-        content="https://www.unisted-skripsi.vercel.app/"
+        content="https://unisted-skripsi.vercel.app/"
       ></meta>
       <meta
         property="og:image"
