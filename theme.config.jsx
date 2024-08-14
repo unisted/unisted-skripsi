@@ -13,7 +13,7 @@ export default {
     <>
       <meta
         name="msapplication-TitleImage"
-        content="https://www.unisted-skripsi.vercel.app/public/img/opengraph-image.png"
+        content="https://www.unisted-skripsi.vercel.app/opengraph-image.png"
       ></meta>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta property="title" content="Skripsi - UNISTED" />
@@ -37,7 +37,7 @@ export default {
       <meta
         property="og:image"
         itemProp="image"
-        content="https://www.unisted-skripsi.vercel.app/public/img/opengraph.png"
+        content="https://www.unisted-skripsi.vercel.app/opengraph-image.png"
       ></meta>
     </>
   ),
