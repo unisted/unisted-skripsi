@@ -2,7 +2,8 @@
   "index": {
     "title": "Homepage",
     "theme": {
-      "footer": false
+      "footer": false,
+      "toc": false
     }
   },
   "general": {

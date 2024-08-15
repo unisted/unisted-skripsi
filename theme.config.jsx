@@ -1,16 +1,20 @@
+import Image from "next/image";
+
 export default {
-  logo: <span>SKRIPSI UNISTED</span>,
-  footer: {
-    text: (
-      <span>
-        MIT {new Date().getFullYear()} ©{" "}
-        <a href="https://github.com/unisted/unisted-skripsi" target="_blank">
-          UNISTED
-        </a>
-        .
-      </span>
-    ),
-  },
+  docsRepositoryBase: "https://github.com/unisted/unisted-skripsi",
+  logo: (
+    <>
+      <Image
+        src="/opengraph-image.png"
+        width={0}
+        height={0}
+        sizes="100vw"
+        style={{ width: "5%", height: "auto" }}
+      />
+
+      <span style={{ marginLeft: ".4em", fontWeight: 800 }}>UNISTED</span>
+    </>
+  ),
 
   useNextSeoProps() {
     return {
