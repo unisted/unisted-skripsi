@@ -1,9 +1,5 @@
 export default {
   logo: <span>SKRIPSI UNISTED</span>,
-  project: {
-    link: "https://github.com/unisted/unisted-skripsi",
-  },
-
   footer: {
     text: (
       <span>
